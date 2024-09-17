@@ -6,8 +6,4 @@ do
 reverse=$reverse${str:$i:1}
 done
 echo "Reversed string:  $reverse"
-if [ $str == $reverse ]; then
- echo "It is a pallindrome string "
-else
-echo "It is not a pallindrome string "
-fi
+
